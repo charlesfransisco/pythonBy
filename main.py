@@ -1,9 +1,7 @@
 import json
 import os
 
-# membaca apakah expenses.json sudah ada, mengubah isi json menjadi python list/dict.
-# Fungsi ini digunakan untuk memuat data pengeluaran dari file expenses.json ke dalam program, atau mengembalikan list kosong jika file tersebut belum tersedia.
-
+# membaca apakah expenses.json sudah ada, mengubah isi json menjadi python list/
 def load_data():
     if os.path.exists("expenses.json"):
         with open("expenses.json", "r") as file:

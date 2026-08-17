@@ -1,14 +1,20 @@
 [
     {
-        "amount": 175.0,
-        "description": "ayam kalasan"
+        "date": "2026-08-17",
+        "description": "telur rebus",
+        "amount": 15.0,
+        "categorie": "Food&beverages"
     },
     {
-        "amount": 10.0,
-        "description": "nasi"
+        "date": "2026-08-17",
+        "description": "nasi goreng",
+        "amount": 120.0,
+        "categorie": "Food&beverages"
     },
     {
-        "amount": 200.0,
-        "description": "nasi"
+        "date": "2026-08-17",
+        "description": "nasi goreng",
+        "amount": 100.0,
+        "categorie": "Food&beverages"
     }
 ]

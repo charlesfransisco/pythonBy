@@ -7,3 +7,6 @@ __pycache__/
 
 # Editor settings
 .vscode/
+
+# Secrets (Supabase keys, dll)
+.streamlit/secrets.toml

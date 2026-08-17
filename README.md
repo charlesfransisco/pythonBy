@@ -1,6 +1,10 @@
 # Expense Tracker
 
-A simple expense tracking app, built as a learning project for Python & Streamlit. It ships in two independent versions:
+A simple expense tracking app, built as a learning project for Python & Streamlit.
+
+**🔗 Live demo:** [pythonby-gtfx3vidsvpbp5inzgpp7k.streamlit.app](https://pythonby-gtfx3vidsvpbp5inzgpp7k.streamlit.app/)
+
+It ships in two independent versions:
 
 | Version | File | Data storage |
 |---|---|---|
@@ -32,7 +36,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-**Web version** — requires a [Supabase](https://supabase.com) project with an `expenses` table (columns: `date`, `description`, `amount`, `category`). Create a `.streamlit/secrets.toml` file with:
+**Web version** — try it live at the [demo link above](https://pythonby-gtfx3vidsvpbp5inzgpp7k.streamlit.app/), or run it locally. Running locally requires a [Supabase](https://supabase.com) project with an `expenses` table (columns: `date`, `description`, `amount`, `category`). Create a `.streamlit/secrets.toml` file with:
 
 ```toml
 SUPABASE_URL = "https://xxxx.supabase.co"
